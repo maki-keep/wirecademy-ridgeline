@@ -1,0 +1,21 @@
+.NavigationLinks {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.NavigationLinks-text {
+  margin-left: var(--dl-space-space-twounits);
+}
+
+/* media queries */
+@media screen and (max-width: 767px) {
+  .NavigationLinks {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .NavigationLinks-text {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
