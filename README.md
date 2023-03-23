@@ -12,6 +12,7 @@ An example of a shopping app that uses [React Router](https://reactrouter.com/en
 Click "Log In" to view the site as if logged in, or "Log Out" to do the opposite.  
 The details of the article are either hard coded or loaded from a local JSON. The "Add to Cart" button will only log the click to the console.  
 
-## How to run
+## How to install and run
 
-`craco start`  
+`npm install`  
+`npm start`  
